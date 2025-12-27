@@ -1,6 +1,3 @@
-// ============================================
-// package.json - Updated with all dependencies
-// ============================================
 {
   "name": "whatsapp-runtime-complete",
   "version": "2.0.0",
