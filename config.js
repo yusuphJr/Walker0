@@ -261,6 +261,48 @@ const COMMANDS = {
         usage: '!back',
         permission: PERMISSIONS.OWNER,
         aliases: []
+    },
+    status: {
+        category: 'personal',
+        description: 'Check availability status',
+        usage: '!status',
+        permission: PERMISSIONS.OWNER,
+        aliases: []
+    },
+    setprefix: {
+        category: 'personal',
+        description: 'Change command prefix',
+        usage: '!setprefix <prefix>',
+        permission: PERMISSIONS.OWNER,
+        aliases: []
+    },
+    broadcast: {
+        category: 'personal',
+        description: 'Broadcast message to all chats',
+        usage: '!broadcast <message>',
+        permission: PERMISSIONS.OWNER,
+        aliases: []
+    },
+    listgroups: {
+        category: 'personal',
+        description: 'List all groups',
+        usage: '!listgroups',
+        permission: PERMISSIONS.OWNER,
+        aliases: ['groups']
+    },
+    leavegroup: {
+        category: 'personal',
+        description: 'Leave current group',
+        usage: '!leavegroup',
+        permission: PERMISSIONS.OWNER,
+        aliases: ['leave']
+    },
+    eval: {
+        category: 'personal',
+        description: 'Execute JavaScript code',
+        usage: '!eval <code>',
+        permission: PERMISSIONS.OWNER,
+        aliases: []
     }
 };
 
