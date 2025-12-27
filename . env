@@ -9,7 +9,7 @@ MONGODB_URI=mongodb+srv://ryzen_2009:47.Hollah!@cluster0.aackvek.mongodb.net/wha
 RUNTIME_PORT=3000
 
 # Session ID (Get from WhatsApp after authentication)
-SESSION_ID=
+SESSION_ID=session_255745830630_1765797192943_05e2bcfb
 
 # Encryption Key (MUST match Service 1)
 ENCRYPTION_KEY=
