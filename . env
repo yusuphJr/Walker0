@@ -1,0 +1,54 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# DATABASE
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONGODB_URI=mongodb+srv://ryzen_2009:47.Hollah!@cluster0.aackvek.mongodb.net/whatsapp_bot?retryWrites=true&w=majority
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# SERVICE CONFIG
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RUNTIME_PORT=3000
+
+# Session ID (Get from WhatsApp after authentication)
+SESSION_ID=
+
+# Encryption Key (MUST match Service 1)
+ENCRYPTION_KEY=
+
+# Inter-Service Secret
+INTER_SERVICE_SECRET=
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# BOT IDENTITY
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOT_NAME=AnonBot
+BOT_OWNER_NUMBER=1234567890
+
+# Command prefix (default: !)
+COMMAND_PREFIX=!
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# DYNAMIC ABOUT (Rotating status texts)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ABOUT_1=🤖 AnonBot - Your WhatsApp Assistant
+ABOUT_2=⚡ Powered by AI & Automation
+ABOUT_3=🔐 Secure | Fast | Reliable
+ABOUT_4=💬 24/7 Active | Multi-Tenant
+ABOUT_5=🚀 Built with whatsapp-web.js
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# API KEYS (Optional - for info commands)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Weather API (Get free key: https://openweathermap.org/api)
+OPENWEATHER_API_KEY=
+
+# News API (Get free key: https://newsapi.org)
+NEWS_API_KEY=
+
+# TikTok Downloader API (optional)
+TIKTOK_API_KEY=
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ENVIRONMENT
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NODE_ENV=development
