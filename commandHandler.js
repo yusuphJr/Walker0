@@ -22,6 +22,7 @@ const mediaCommands = require('./commands/media');
 const roleCommands = require('./commands/roles');
 const settingsCommands = require('./commands/settings');
 const analyticsCommands = require('./commands/analytics');
+const personalCommands = require('./commands/personal');
 
 // ============================================
 // COMMAND HANDLER CLASS
